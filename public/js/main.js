@@ -1,9 +1,9 @@
-document.querySelector('botton').addEventListener('click', apiRequest)
+document.querySelector('button').addEventListener('click', apiRequest)
 
 async function apiRequest(){
     const playerName = document.querySelector('input').value
     try{
-        const res = await fetch(`https://enchanting-seal-nightgown.cyclic.app/api/${playerName}`)
+        const res = await fetch(`https://bluelock-api.cyclic.app/api/${playerName}`)
         const data = await res.json()
 
         console.log(data)
