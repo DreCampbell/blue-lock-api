@@ -175,6 +175,9 @@ const players = {
         'Former Affiliation': 'Unknown',
         'Round 1 Team': 'Team V'
     },
+    'tanya':{
+        'Name': 'Tanya Milici, my love'
+    },
     'unknown':{
         'Error': 'Player does not exist'
     }
