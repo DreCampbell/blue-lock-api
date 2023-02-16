@@ -12,8 +12,7 @@ const players = {
         'Height': '173cm',
         'Alias': 'Mr. Mediocre, The Adaptation Genius, The Heart of Blue Lock',
         'Weapon': 'Spacial Awareness, Direct Shot, Off the Ball Movement, Metavision, Reflex, Flow State',
-        'Former Affiliation': 'Ichinan High School',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'bachira':{
         'Name': 'Meguru Bachira',
@@ -21,8 +20,7 @@ const players = {
         'Height': '176cm',
         'Alias': 'Bowl Cut, Bob Cut',
         'Weapon': 'Dribbling, Passing, Flow State',
-        'Former Affiliation': 'Namikaze High',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'kunigami':{
         'Name': 'Rensuke Kunigami',
@@ -37,8 +35,7 @@ const players = {
         'Height': '177cm',
         'Alias': 'Princess, Konoichi, Redhead, Red Panther',
         'Weapon': 'Speed, Ball Control',
-        'Former Affiliation': 'Rajitsu Tech',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'naruhaya':{
         'Name': 'Asahi Naruhaya',
@@ -46,8 +43,7 @@ const players = {
         'Height': '168cm',
         'Alias': 'Unknown',
         'Weapon': 'Getting Behind Opposition',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'raichi':{
         'Name': 'Jingo Raichi',
@@ -55,8 +51,7 @@ const players = {
         'Height': '182cm',
         'Alias': 'Unknown',
         'Weapon': 'Man-Marking, Immense Stamina',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'gagamaru':{
         'Name': 'Gin Gagamaru',
@@ -64,8 +59,7 @@ const players = {
         'Height': '191cm',
         'Alias': 'Unknown',
         'Weapon': 'Spring-Like Body, Explosive Reaction, Flexibility',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'igarashi':{
         'Name': 'Gurimu Igarashi',
@@ -73,8 +67,7 @@ const players = {
         'Height': '172cm',
         'Alias': 'Igaguri',
         'Weapon': 'Diving',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'lemon':{
         'Name': 'Okuhito Lemon',
@@ -82,8 +75,7 @@ const players = {
         'Height': '187cm',
         'Alias': 'Unknown',
         'Weapon': 'Unknown',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'kuon':{
         'Name': 'Wataru Kuon',
@@ -91,8 +83,7 @@ const players = {
         'Height': '185cm',
         'Alias': 'Unknown',
         'Weapon': 'Vertical Jump, Headers',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'imamura':{
         'Name': 'Yudai Imamura',
@@ -100,8 +91,7 @@ const players = {
         'Height': '178cm',
         'Alias': 'Unknown',
         'Weapon': 'Unknown',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Z'
+        'Team': 'Team Z'
     },
     'okawa':{
         'Name': 'Hibiki Okawa',
@@ -109,8 +99,7 @@ const players = {
         'Height': '177cm',
         'Alias': 'Unknown',
         'Weapon': 'Unknown',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Y'
+        'Team': 'Team Y'
     },
     'niko':{
         'Name': 'Ikki Niko',
@@ -118,8 +107,7 @@ const players = {
         'Height': '173cm',
         'Alias': 'Unknown',
         'Weapon': 'Spatial Awareness, Watchtower Soccer',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team Y'
+        'Team': 'Team Y'
     },
     'baro':{
         'Name': 'Shoei Baro',
@@ -127,8 +115,7 @@ const players = {
         'Height': '187cm',
         'Alias': 'King, Villain, Scary Gorilla, King of Villains',
         'Weapon': 'Middle Shot, Charging Skill, Flow State',
-        'Former Affiliation': 'Akudo Academy',
-        'Round 1 Team': 'Team X'
+        'Team': 'Team X'
     },
     'junichi':{
         'Name': 'Wanima Junichi',
@@ -136,8 +123,7 @@ const players = {
         'Height': '182cm',
         'Alias': 'Unknown',
         'Weapon': 'Eye Contact',
-        'Former Affiliation': 'Raijutsu Tech',
-        'Round 1 Team': 'Team W'
+        'Team': 'Team W'
     },
     'keisuke':{
         'Name': 'Wanima Keisuke',
@@ -145,8 +131,7 @@ const players = {
         'Height': '182cm',
         'Alias': 'Unknown',
         'Weapon': 'Eye Contact',
-        'Former Affiliation': 'Raijutsu Tech',
-        'Round 1 Team': 'Team W'
+        'Team': 'Team W'
     },
     'reo':{
         'Name': 'Mikage Reo',
@@ -154,8 +139,7 @@ const players = {
         'Height': '185cm',
         'Alias': 'Chameleon',
         'Weapon': 'Dexterity, Copy Cat, Metavision',
-        'Former Affiliation': 'Akudo Academy',
-        'Round 1 Team': 'Team V'
+        'Team': 'Team V'
     },
     'nagi':{
         'Name': 'Seishiro Nagi',
@@ -163,8 +147,7 @@ const players = {
         'Height': '190cm',
         'Alias': 'Genius, Nagicchi',
         'Weapon': 'Ball Control, Trapping, Flow State',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team V'
+        'Team': 'Team V'
     },
     'tsurugi':{
         'Name': 'Tsurugi Zantetsu',
@@ -172,11 +155,7 @@ const players = {
         'Height': '187cm',
         'Alias': 'Unknown',
         'Weapon': 'Acceleration, Left Foot Shot',
-        'Former Affiliation': 'Unknown',
-        'Round 1 Team': 'Team V'
-    },
-    'tanya':{
-        'Name': 'Tanya Milici, my love'
+        'Team': 'Team V'
     },
     'unknown':{
         'Error': 'Player does not exist'

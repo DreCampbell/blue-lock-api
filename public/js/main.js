@@ -7,7 +7,12 @@ async function apiRequest(){
         const data = await res.json()
 
         console.log(data)
-        document.querySelector('h2').innerText = data.Name
+        document.querySelector('#name').innerText = `Name: ${data.Name}`
+        document.querySelector('#alias').innerText = `Alias: ${data.Alias}`
+        document.querySelector('#age').innerText = `Age: ${data.Age}`
+        document.querySelector('#height').innerText = `Height: ${data.Height}`
+        document.querySelector('#weapon').innerText = `Weapon: ${data.Weapon}`
+        document.querySelector('#team').innerText = `Team: ${data.Team}`
     }catch(error){
         console.log(error)
     }
