@@ -28,6 +28,7 @@ const players = {
         'Height': '188cm',
         'Alias': 'Hero, Muscle Hero, Muscle Kunigami, Cynic Hero, Hyena Hero',
         'Weapon': 'Superior Physicality, Finesse Shot, Ambidexterity',
+        'Team': 'Team Z'
     },
     'chigiri':{
         'Name': 'Hyoma Chigiri',
