@@ -1,6 +1,17 @@
+h1{
+    text-align: center;
+}
+
 body{
     background-color: rgb(29, 26, 26);
     color: aliceblue;
+}
+
+#card{
+    border: 15px solid #444581;
+    margin: auto;
+    min-width: 20rem;
+    max-width: 28rem;
 }
 
 .players{

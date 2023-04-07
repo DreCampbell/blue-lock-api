@@ -7,6 +7,7 @@ async function apiRequest(){
         const data = await res.json()
 
         console.log(data)
+        document.querySelector('#playerCard').src = data.img
         document.querySelector('#name').innerText = `Name: ${data.Name}`
         document.querySelector('#alias').innerText = `Alias: ${data.Alias}`
         document.querySelector('#age').innerText = `Age: ${data.Age}`
