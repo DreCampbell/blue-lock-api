@@ -7,7 +7,7 @@ app.use(cors())
 
 const players = {
     'isagi':{
-        'img': 'https://static.wikia.nocookie.net/bluelock/images/f/f3/Yoichi_Isagi_uniform_anime_design.png/revision/latest?cb=20220513125337',
+        'img': 'https://static.tvtropes.org/pmwiki/pub/images/yoichi_isagi_8.png',
         'Name': 'Yoichi Isagi',
         'Position': 'Forward',
         'Age': 16,
