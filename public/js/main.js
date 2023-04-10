@@ -16,6 +16,10 @@ async function isagi(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
 
+	document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+    
     try{
         const res = await fetch(`https://bluelock-api.cyclic.app/api/isagi`)
         const data = await res.json()
@@ -39,6 +43,10 @@ async function bachira(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/bachira`)
         const data = await res.json()
 
@@ -61,6 +69,10 @@ async function kunigami(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/kunigami`)
         const data = await res.json()
 
@@ -83,6 +95,10 @@ async function chigiri(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/chigiri`)
         const data = await res.json()
 
@@ -105,6 +121,10 @@ async function gagamaru(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/gagamaru`)
         const data = await res.json()
 
@@ -127,6 +147,10 @@ async function imamura(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/imamura`)
         const data = await res.json()
 
@@ -149,6 +173,10 @@ async function naruhaya(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/naruhaya`)
         const data = await res.json()
 
@@ -171,6 +199,10 @@ async function kuon(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/kuon`)
         const data = await res.json()
 
@@ -193,6 +225,10 @@ async function igarashi(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/igarashi`)
         const data = await res.json()
 
@@ -215,6 +251,10 @@ async function raichi(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/raichi`)
         const data = await res.json()
 
@@ -237,6 +277,10 @@ async function iemon(){
 //    async function apiRequest(){
     // const playerName = document.querySelector('input').value
     try{
+		document.querySelector('.container').classList.remove('hidden');
+	document.querySelector('.blueLock').classList.add('hidden');
+
+        
         const res = await fetch(`https://bluelock-api.cyclic.app/api/iemon`)
         const data = await res.json()
 
