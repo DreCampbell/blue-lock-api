@@ -17,7 +17,7 @@ const players = {
         'Team': 'Team Z'
     },
     'bachira':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bachira.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/f/f4/Meguru_Bachira_uniform_anime_design.png',
         'Name': 'Meguru Bachira',
         'Position': 'Forward',
         'Age': 17,
@@ -27,7 +27,7 @@ const players = {
         'Team': 'Team Z'
     },
     'kunigami':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bluelock_kunigamitransparent.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/d/db/Rensuke_Kunigami_uniform_anime_design.png',
         'Name': 'Rensuke Kunigami',
         'Position': 'Forward',
         'Age': 17,
@@ -37,7 +37,7 @@ const players = {
         'Team': 'Team Z'
     },
     'chigiri':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/chigiri.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/2/2b/Hyoma_Chigiri_uniform_anime_design.png',
         'Name': 'Hyoma Chigiri',
         'Position': 'Forward',
         'Age': 16,
@@ -47,7 +47,7 @@ const players = {
         'Team': 'Team Z'
     },
     'naruhaya':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bluelock_naruhayatransparent.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/5/5a/Asahi_Naruhaya_uniform_anime_design.png',
         'Name': 'Asahi Naruhaya',
         'Position': 'Forward',
         'Age': 16,
@@ -57,7 +57,7 @@ const players = {
         'Team': 'Team Z'
     },
     'raichi':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bluelock_raichitransparent_9.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/6/6e/Jingo_Raichi_uniform_anime_design.png',
         'Name': 'Jingo Raichi',
         'Position': 'Forward',
         'Age': 17,
@@ -67,7 +67,7 @@ const players = {
         'Team': 'Team Z'
     },
     'gagamaru':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bluelock_gagamarutransparent.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/d/d4/Gin_Gagamaru_uniform_anime_design.png',
         'Name': 'Gin Gagamaru',
         'Position': 'Forward',
         'Age': 17,
@@ -77,7 +77,7 @@ const players = {
         'Team': 'Team Z'
     },
     'igarashi':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bluelock_igarashitransparent.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/6/66/Gurimu_Igarashi_uniform_anime_design.png',
         'Name': 'Gurimu Igarashi',
         'Position': 'Forward',
         'Age': 16,
@@ -87,7 +87,7 @@ const players = {
         'Team': 'Team Z'
     },
     'iemon':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bluelock_iemontransparent.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/e/e9/Okuhito_Iemon_uniform_anime_design.png',
         'Name': 'Okuhito Iemon',
         'Position': 'Forward',
         'Age': 18,
@@ -97,7 +97,7 @@ const players = {
         'Team': 'Team Z'
     },
     'kuon':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bluelock_kuontransparent.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/5/50/Wataru_Kuon_uniform_anime_design.png',
         'Name': 'Wataru Kuon',
         'Position': 'Forward',
         'Age': 18,
@@ -107,7 +107,7 @@ const players = {
         'Team': 'Team Z'
     },
     'imamura':{
-        'img': 'https://static.tvtropes.org/pmwiki/pub/images/bluelock_imamuratransparent.png',
+        'img': 'https://static.wikia.nocookie.net/bluelock/images/3/3b/Yudai_Imamura_uniform_anime_design.png',
         'Name': 'Yudai Imamura',
         'Position': 'Forward',
         'Age': 18,
