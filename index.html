@@ -8,43 +8,48 @@
     <title>Blue Lock API</title>
 </head>
 <body>
-    <h1>Blue Lock API</h1>
+    <h1>Welcome to Blue Lock</h1>
     <input type="text">
     <button>Click Me</button>
-    <section id="card" class="">
-        <img id="playerCard" src="/public/images/yoichi_isagi_8.jpeg" alt="Player Photo" id="playerPhoto">
-        <h2 id="name">isagi</h2>
-        <h2 id="alias">Master of Adaptability</h2>
-        <h2 id="age">16</h2>
-        <h2 id="height">177cm</h2>
-        <h2 id="weapon">Direct Shot</h2>
-        <h2 id="team">Blie lock</h2>
+    <!-- <img class="blueLock" src="/public/images/Blue_Lock.jpeg" alt=""> -->
+    <section class="container">
+        <section id="card" class="hidden">
+            <img id="playerPhoto" src="#" alt="Player Photo">
+            <div class="playerInfo">
+                <h3 id="name">Name: </h3>
+                <h3 id="alias">Alias: </h3>
+                <h3 id="age">Age: </h3>
+                <h3 id="height">Height: </h3>
+                <h3 id="weapon">Weapon: </h3>
+            </div>
+        </section>
     </section>
 
     <section class="players">
-        <a href="/players/playerCard.html"><img src="/public/images/isagi.jpeg" alt="">Isagi</a>
+        <div><img id="isagi" src="/public/images/yoichi_isagi.jpeg" alt="">Isagi</div>
         
-        <a href="#"><img src="/public/images/bachira.jpeg" alt="">Bachira</a>
+        <div><img id="bachira" src="/public/images/meguru_bachira.jpeg" alt="">Bachira</div>
         
-        <a href="#"><img src="/public/images/chigiri.jpeg" alt="">Chigiri</a>
+        <div><img id="chigiri" src="/public/images/hyoma_chigiri.jpeg" alt="">Chigiri</div>
         
-        <a href="#"><img src="/public/images/gagamaru.jpeg" alt="">Gagamaru</a>
+        <div><img id="gagamaru" src="/public/images/gin_gagamaru.jpeg" alt="">Gagamaru</div>
         
-        <a href="#"><img src="/public/images/raichi.jpeg" alt="">Raichi</a>
+        <div><img id="raichi" src="/public/images/jingo_raichi.jpeg" alt="">Raichi</div>
         
-        <a href="#"><img src="/public/images/igarashi.jpeg" alt="">Igarashi</a>
-        
-        <a href="#"><img src="/public/images/imamura.jpeg" alt="">Imamura</a>
-        
-        <a href="#"><img src="/public/images/kunigami.jpeg" alt="">Kunigami</a>
-        
-        <a href="#"><img src="/public/images/lemon.jpeg" alt="">Iemon</a>
-        
-        <a href="#"><img src="/public/images/naruhaya.jpeg" alt="">Naruhaya</a>
-        
-        <a href="#"><img src="/public/images/kuon.jpeg" alt="">Kuon</a>
-        
+        <div><img id="igarashi" src="/public/images/gurimu_igarashi.jpeg" alt="">Igarashi</div>
     </section>
-    <script src="js/main.js"></script>
+        
+    <section class="players2">
+        <div><img id="imamura" src="/public/images/yudai_imamura.jpeg" alt="">Imamura</div>
+        
+        <div><img id="kunigami" src="/public/images/rensuke_kunigami.jpeg" alt="">Kunigami</div>
+        
+        <div><img id="iemon" src="/public/images/okuhito_iemon.jpeg" alt="">Iemon</div>
+        
+        <div><img id="naruhaya" src="/public/images/asahi_naruhaya.jpeg" alt="">Naruhaya</div>
+        
+        <div><img id="kuon" src="/public/images/wataru_kuon.jpeg" alt="">Kuon</div>
+    </section>
+    <script src="/public/js/main.js"></script>
 </body>
 </html>
