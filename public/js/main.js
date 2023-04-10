@@ -13,7 +13,7 @@ async function apiRequest(){
         document.querySelector('#age').innerText = `Age: ${data.Age}`
         document.querySelector('#height').innerText = `Height: ${data.Height}`
         document.querySelector('#weapon').innerText = `Weapon: ${data.Weapon}`
-        document.querySelector('#team').innerText = `Team: ${data.Team}`
+        document.querySelector('#error').innerText = `Error: ${data.Error}`
     }catch(error){
         console.log(error)
     }
