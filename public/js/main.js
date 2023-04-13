@@ -13,9 +13,7 @@ document.querySelector('#raichi').addEventListener('click', raichi)
 document.querySelector('#iemon').addEventListener('click', iemon)
 
 function button(){
-    app.get('/', (req, res) =>{
-        res.sendFile('https://bluelock-api.cyclic.app/')
-    })
+    window.location.reload();
 }
 
 async function isagi(){
