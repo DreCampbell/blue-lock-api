@@ -62,7 +62,6 @@ body{
     width: 650px;
     margin: auto;
     overflow: hidden;
-    
 }
 
 #bachira{
@@ -91,19 +90,15 @@ body{
     object-fit: fill;
 }
 
-/* .playerName, .playerName2{
-    border: 3px solid red;
-} */
-
 .name{
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
     .container{
-        margin: 0 9rem;
+        margin: auto;
     }
 
     .blueLock{
@@ -122,30 +117,40 @@ body{
     }
     
     .players div, .players2 div{
-        border: 1px solid red;
+        border: 5px solid transparent;
         width: 25%;
         height: 90px;
-        text-align: center;
-        text-decoration: none;
-        color: aliceblue;
         margin-top: 10px;
     } 
     
     .players img, .players2 img{
-        /* height: 130px; */
-        margin: 0 -20%;
-        object-fit: fill;
+        height: 150px;
+    }
+
+    #row1, #row2, #row3, #row4{
+        height: 92px;
+        object-fit: contain;
+        overflow: hidden;
     }
 }
 
 @media screen and (max-width: 660px) {
     .container{
-        margin: 0 9rem;
+        margin: auto;
     }
 
     .blueLock{
         border-radius: 5%;
         width: 77%;
         margin: 0 12%;
+    }
+
+    .players, .players2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* width: 650px; */
+        margin: auto;
+        overflow: hidden;
     }
 }
