@@ -96,6 +96,10 @@ body{
     text-align: center;
 }
 
+button{
+    margin: 20px 42%;
+}
+
 @media screen and (max-width: 450px) {
     .container{
         margin: auto;

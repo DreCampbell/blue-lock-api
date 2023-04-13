@@ -1,4 +1,4 @@
-// document.querySelector('button').addEventListener('click', apiRequest)
+document.querySelector('button').addEventListener('click', button)
 
 document.querySelector('#isagi').addEventListener('click', isagi)
 document.querySelector('#bachira').addEventListener('click', bachira)
@@ -11,6 +11,14 @@ document.querySelector('#kuon').addEventListener('click', kuon)
 document.querySelector('#igarashi').addEventListener('click', igarashi)
 document.querySelector('#raichi').addEventListener('click', raichi)
 document.querySelector('#iemon').addEventListener('click', iemon)
+
+async function button(){
+    try{
+        const res = await fetch('https://bluelock-api.cyclic.app/')
+    }catch(error){
+        console.log(error)
+    }
+}
 
 async function isagi(){
 //    async function apiRequest(){
