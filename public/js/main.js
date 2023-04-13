@@ -12,12 +12,10 @@ document.querySelector('#igarashi').addEventListener('click', igarashi)
 document.querySelector('#raichi').addEventListener('click', raichi)
 document.querySelector('#iemon').addEventListener('click', iemon)
 
-async function button(){
-    try{
-        const res = await fetch('https://bluelock-api.cyclic.app/')
-    }catch(error){
-        console.log(error)
-    }
+function button(){
+    app.get('/', (req, res) =>{
+        res.sendFile('https://bluelock-api.cyclic.app/')
+    })
 }
 
 async function isagi(){

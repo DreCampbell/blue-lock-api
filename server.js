@@ -13,7 +13,7 @@ const players = {
         'Age': 16,
         'Height': '173cm',
         'Alias': 'Mr. Mediocre, The Adaptation Genius, The Heart of Blue Lock',
-        'Weapon': 'Spacial Awareness, Direct Shot, Off the Ball Movement, Metavision, Reflex, Flow State',
+        'Weapon': 'Spacial Awareness / Direct Shot',
         'Team': 'Team Z'
     },
     'bachira':{
@@ -23,7 +23,7 @@ const players = {
         'Age': 17,
         'Height': '176cm',
         'Alias': 'Bowl Cut, Bob Cut',
-        'Weapon': 'Dribbling, Passing, Flow State',
+        'Weapon': 'Dribbling / Passing',
         'Team': 'Team Z'
     },
     'kunigami':{
@@ -33,7 +33,7 @@ const players = {
         'Age': 17,
         'Height': '188cm',
         'Alias': 'Hero, Muscle Hero, Muscle Kunigami, Cynic Hero, Hyena Hero',
-        'Weapon': 'Superior Physicality, Finesse Shot, Ambidexterity',
+        'Weapon': 'Superior Physicality / Ambidexterity',
         'Team': 'Team Z'
     },
     'chigiri':{
@@ -43,7 +43,7 @@ const players = {
         'Age': 16,
         'Height': '177cm',
         'Alias': 'Princess, Konoichi, Redhead, Red Panther',
-        'Weapon': 'Speed, Ball Control',
+        'Weapon': 'Speed / Ball Control',
         'Team': 'Team Z'
     },
     'naruhaya':{
@@ -63,7 +63,7 @@ const players = {
         'Age': 17,
         'Height': '182cm',
         'Alias': 'Unknown',
-        'Weapon': 'Man-Marking, Immense Stamina',
+        'Weapon': 'Man-Marking / Immense Stamina',
         'Team': 'Team Z'
     },
     'gagamaru':{
@@ -73,7 +73,7 @@ const players = {
         'Age': 17,
         'Height': '191cm',
         'Alias': 'Unknown',
-        'Weapon': 'Spring-Like Body, Explosive Reaction, Flexibility',
+        'Weapon': 'Explosive Reaction / Flexibility',
         'Team': 'Team Z'
     },
     'igarashi':{
@@ -103,7 +103,7 @@ const players = {
         'Age': 18,
         'Height': '185cm',
         'Alias': 'Unknown',
-        'Weapon': 'Vertical Jump, Headers',
+        'Weapon': 'Vertical Jump / Headers',
         'Team': 'Team Z'
     },
     'imamura':{
