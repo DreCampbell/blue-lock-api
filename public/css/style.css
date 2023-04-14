@@ -1,10 +1,10 @@
 body{
     background-color: rgb(29, 26, 26);
     color: aliceblue;
-    /* background-image: url(/public/images/Blue_Lock.jpeg);
+    /* background-image: url('/public/images/playercard-background.png'); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
 }
 
 h1{
@@ -20,16 +20,22 @@ h1{
 
 #card{
     border: 15px solid rgba(63,36, 228, 1);
-    box-shadow: rgb(63,36, 228) -10px 0px 13px -7px, rgb(63,36, 228) 10px 0px 13px -7px, rgba(63,36, 228, 1) 5px 5px 15px 5px;
+    box-shadow: rgb(0, 0, 0) -10px 0px 13px -7px
+    , rgb(0, 0, 0) 10px 0px 13px -7px, rgba(62, 36, 228, 0) 5px 5px 15px 5px;
     border-radius: 15px;
     margin: 25px auto;
-    /* background-image: url('#');
-    background-size: cover; */
+    background-image: url(/public/images/2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     width: 20rem;
-    height: 30rem; /*33rem*/
-    /*background-position: center; */
+    height: 30rem;
+}
+
+h3{
+    color: navy;
 }
 
 .hidden{
@@ -44,10 +50,14 @@ h1{
     border: 3px solid rgba(63,36, 228, 1);
     border-radius: 0.8rem;
     margin: 1em;
+    background-image: url(/public/images/bright-hex-backgrounds-networking_23-2149755776.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }    
 
 #card div{
-    margin:-15px 0 0 25px;
+    margin:-15px 0 0 14px;
 }
 
 .players, .players2{
