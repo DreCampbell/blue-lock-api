@@ -1,8 +1,3 @@
-h1{
-    text-align: center;
-    color: #2f57a6;
-}
-
 body{
     background-color: rgb(29, 26, 26);
     color: aliceblue;
@@ -12,20 +7,15 @@ body{
     background-size: cover; */
 }
 
+h1{
+    text-align: center;
+    color: #2f57a6;
+}
+
 .blueLock{
     border-radius: 5%;
     width: 70%;
     margin: 20px 15%;
-}
-
-#playerPhoto{
-    align-self: center;
-    max-width: 30rem;
-    width: 8rem;
-    height: auto;
-    border: 3px solid rgba(63,36, 228, 1);
-    border-radius: 0.8rem;
-    margin: 1em;
 }
 
 #card{
@@ -42,17 +32,22 @@ body{
     /*background-position: center; */
 }
 
-#card div{
-    margin:-15px 0 0 25px;
-}
-
 .hidden{
     display: none;
 }
 
-#playerCard{
-    max-width: 28rem;
-    margin: auto;
+#playerPhoto{
+    align-self: center;
+    max-width: 30rem;
+    width: 8rem;
+    height: auto;
+    border: 3px solid rgba(63,36, 228, 1);
+    border-radius: 0.8rem;
+    margin: 1em;
+}    
+
+#card div{
+    margin:-15px 0 0 25px;
 }
 
 .players, .players2{
@@ -78,7 +73,7 @@ body{
     margin-top: 10px;
 }
 
-.players div:hover, .players2 div:hover{
+.players div:hover, .players2 div:hover, button:hover{
     cursor: pointer; 
     border: 4px solid rgba(63,36, 228, 1);
     border-radius: 50px;
@@ -90,17 +85,16 @@ body{
     object-fit: fill;
 }
 
-.name{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
 button{
-    margin: 20px 42%;
+    margin: 4% 47%;
+    border-radius: 10%;
+    height: auto;
+    width: 75px;
+    background-color: rgba(63,36, 228, 1);
+    color: aliceblue;
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
     .container{
         margin: auto;
     }
@@ -136,7 +130,7 @@ button{
         object-fit: contain;
         overflow: hidden;
     }
-}
+} */
 
 @media screen and (max-width: 660px) {
     .container{
@@ -153,8 +147,34 @@ button{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        /* width: 650px; */
+        width: auto;
         margin: auto;
         overflow: hidden;
+    }
+    
+    .players div, .players2 div{
+        border: 5px solid transparent;
+        width: 25%;
+        height: 90px;
+        margin-top: 10px;
+    } 
+    
+    .players img, .players2 img{
+        height: 150px;
+    }
+
+    #row1, #row2, #row3, #row4{
+        height: 92px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+
+    button{
+        margin: 6% 42%;
+        border-radius: 10%;
+        height: auto;
+        width: 75px;
+        background-color: rgba(63,36, 228, 1);
+        color: aliceblue;
     }
 }
