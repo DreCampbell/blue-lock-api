@@ -1,7 +1,7 @@
 body{
     background-color: rgb(29, 26, 26);
     color: aliceblue;
-    background-image: url('/images/soccer-pitch.png');
+    background-image: url('/public/images/soccer-pitch.png');
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
@@ -24,7 +24,7 @@ h1{
     , rgb(0, 0, 0) 10px 0px 13px -7px, rgba(62, 36, 228, 0) 5px 5px 15px 5px;
     border-radius: 15px;
     margin: 25px auto;
-    background-image: url(/images/2.png);
+    background-image: url(/public/images/2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -50,7 +50,7 @@ h3{
     border: 3px solid rgba(63,36, 228, 1);
     border-radius: 0.8rem;
     margin: 1em;
-    background-image: url(/images/bright-hex-backgrounds-networking_23-2149755776.avif);
+    background-image: url(/public/images/bright-hex-backgrounds-networking_23-2149755776.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -97,18 +97,19 @@ h3{
 
 button{
     margin: 2% 47%;
-    border-radius: 10%;
+    border-radius: 0%;
+    border: 3px solid #5e97ff;
     height: auto;
     width: 75px;
     background-color: rgba(63,36, 228, 1);
-    color: aliceblue;
+    color: #5e97ff;
 }
 
 @media screen and (max-width: 660px) {
     body{
         background-color: rgb(29, 26, 26);
         color: aliceblue;
-        background-image: url('/images/rotated-soccer-pitch.png');
+        background-image: url('/public/images/rotated-soccer-pitch.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
